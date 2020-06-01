@@ -25,7 +25,7 @@ def check():
     if e1.get() == "admin" and e2.get() == "123":
         textFile()
     else:
-        messagebox.showinfo("Incorrect user / password")
+        messagebox.showinfo("Error", "Incorrect user / password")
 
 
 enter = tkinter.Button(top, text="login", command=check).grid(row=2)
